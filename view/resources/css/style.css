@@ -46,7 +46,7 @@ a {
 }
 
 .divider-or:after {
-    content: 'Or';
+    content: 'или';
     position: absolute;
     left: 0;
     right: 0;
