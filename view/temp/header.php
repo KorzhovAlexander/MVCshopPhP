@@ -8,6 +8,9 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="/view/resources/css/materialize.css" media="screen,projection"/>
 
+    <!--Import font-awesome.css-->
+    <link type="text/css" rel="stylesheet" href="/view/resources/css/font-awesome.min.css">
+
     <!--Import main.css-->
     <link rel="stylesheet" href="/view/resources/css/style.css">
 
