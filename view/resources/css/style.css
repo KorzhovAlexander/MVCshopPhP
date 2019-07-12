@@ -7,11 +7,53 @@ body {
 }
 section.container{
     color: #555555;
-    padding: 100px 0 0;
+    padding: 3em 0 0;
 }
 /*#3f51b5*/
-nav{
+nav, .green-c{
     background-color: #0EB57D;
+}
+.banner-platforms--container {
+    max-width: -webkit-calc(100% - 120px);
+    max-width: calc(100% - 120px);
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #555555;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px 0 0;
+}
+.platform {
+    text-align: center;
+    min-width: 130px;
+    padding: 1.5em 2em;
+}
+.platform-image{
+    font-size: 44px;
+    color: #e6e6e6;
+    /*width: 104px;*/
+    margin: 0 auto;
+    transition: 0.4s color;
+}
+.platform-image:hover {
+    color:#f7f7f7;
 }
 /* ========================================= Typography ================================ */
 /* blockquote left border*/
