@@ -5,11 +5,11 @@
         <div class="card login-form">
             <div class="card-content">
                 <!-- title -->
-                <div class="center-align border title-border m1">Reset your password</div>
+                <div class="center-align border title-border m1">Сбросить пароль</div>
 
                 <!-- card body -->
                 <div class="card-body">
-                    <p>Enter your email address below and we'll send you a link to reset your password.</p>
+                    <p>Введите адрес электронной почты ниже, и мы вышлем Вам ссылку для сброса пароля.</p>
                     <!-- form -->
                     <form action="#">
                         <div class="row m-b-5">
@@ -22,7 +22,7 @@
 
 
                             <div class="input-field col s12">
-                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action">Send reset password email
+                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action">Отправить письмо для сброса пароля
                                 </button>
                             </div>
 
@@ -32,14 +32,14 @@
 
                     <!-- form footer -->
                     <div class="center-align">
-                        Remember your password?
-                        <a href="/login">Sign in</a></div>
+                        Вспомнили свой пароль?
+                        <a href="/login">Войти</a></div>
 
                     <div class="divider-or"></div>
 
                     <div class="center-align">
-                        Don't have an account?
-                        <a href="/registration">Sign up</a></div>
+                        Нет аккаунта?
+                        <a href="/registration">Зарегистрироваться</a></div>
 
                     <!-- End form footer -->
 
