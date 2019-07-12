@@ -6,7 +6,7 @@
         <div class="card login-form">
             <div class="card-content">
                 <!-- title -->
-                <div class="center-align border title-border m1">Welcome back!</div>
+                <div class="center-align border title-border m1">Добро пожаловать!</div>
 
                 <!-- card body -->
                 <div class="card-body">
@@ -24,20 +24,20 @@
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">lock_outline</i>
                                 <input id="password" type="password" class="validate">
-                                <label for="password" class="">Password</label>
+                                <label for="password" class="">Пароль</label>
                             </div>
 
                             <div class="col s12 center-align">
                                 <p>
                                     <label>
                                         <input type="checkbox" class="filled-in" checked="checked">
-                                        <span>Keep me logged in</span>
+                                        <span>Не выходить из системы</span>
                                     </label>
                                 </p>
                             </div>
 
                             <div class="input-field col s12">
-                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action">Sign In Your Account
+                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action">Войдите в свой аккаунт
                                 </button>
                             </div>
 
@@ -47,13 +47,13 @@
 
                     <!-- form footer -->
                     <div class="center-align">
-                        Don't have an account?
-                        <a href="/registration">Sign up</a></div>
+                        У вас нет аккаунта?
+                        <a href="/registration">Зарегистрироваться</a></div>
 
                     <div class="divider-or"></div>
 
-                    <div class="center-align">Forgot your
-                        <a href="/reset">password?</a></div>
+                    <div class="center-align">Забыли Ваш
+                        <a href="/reset">пароль?</a></div>
                     <!-- End form footer -->
 
                 </div>
