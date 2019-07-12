@@ -3,11 +3,17 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="/view/resources/css/materialize.css" media="screen,projection"/>
+
+    <!--Import main.css-->
     <link rel="stylesheet" href="/view/resources/css/style.css">
 
+    <!--Import jquery lib-->
     <script type="text/javascript" src="/view/resources/js/jquery-3.4.1.min.js"></script>
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
