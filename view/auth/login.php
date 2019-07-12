@@ -30,7 +30,7 @@
                             <div class="col s12 center-align">
                                 <p>
                                     <label>
-                                        <input type="checkbox" class="filled-in" checked="checked">
+                                        <input type="checkbox" class="filled-in" checked="checked" name="check">
                                         <span>Не выходить из системы</span>
                                     </label>
                                 </p>
