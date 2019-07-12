@@ -31,10 +31,10 @@ class Router
 
             /*Если хотя бы один паттерн из роутера совпал со строкой запроса,
              то создаем контроллер(и вызываем экшин)*/
-            if (preg_match("~\b$uriPattern\b~", $url)){
+            if (preg_match("~^$uriPattern$~", $url)){
 
                 //Получаем внутренний путь из внешнего, согласно правилу (рег. выражение)
-                $internalRoute = preg_replace("~\b$uriPattern\b~",$path,$url);
+                $internalRoute = preg_replace("~^$uriPattern$~",$path,$url);
 
                 //разбиваем полученный путь на массив (контроллер и экшин)
                 $segments = explode('/',$internalRoute);

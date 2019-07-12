@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="/view/resources/css/materialize.css" media="screen,projection"/>
+    <link rel="stylesheet" href="/view/resources/css/style.css">
 
     <script type="text/javascript" src="/view/resources/js/jquery-3.4.1.min.js"></script>
     <!--Let browser know website is optimized for mobile-->

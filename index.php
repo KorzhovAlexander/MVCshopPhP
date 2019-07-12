@@ -1,5 +1,3 @@
-<?php require 'view/temp/header.php'?>
-<h1>HI</h1>
 <?php
 /*Репортим любые ошибки */
 ini_set('display_errors',1);
@@ -14,5 +12,4 @@ require_once ROOT.'/components/DAO.php';
 $alpha = new Router();
 $alpha->run();
 ?>
-<?php require 'view/temp/footer.php'?>
 
