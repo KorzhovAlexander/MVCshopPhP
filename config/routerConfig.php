@@ -4,5 +4,6 @@ return array(
     'products'=>'products/list',
     'login'=>'auth/login',
     'registration'=>'auth/registration',
+    'reset'=>'auth/reset',
     '^/*$' => 'main/index'
 );

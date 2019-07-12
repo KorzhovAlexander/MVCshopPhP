@@ -15,4 +15,10 @@ class authController
         return true;
     }
 
+    public function resetAction()
+    {
+        require_once (ROOT.'/view/auth/resetpas.php');
+        return true;
+    }
+
 }
