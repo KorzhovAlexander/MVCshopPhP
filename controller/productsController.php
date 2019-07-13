@@ -6,6 +6,8 @@ class productsController
 {
     public function listAction()
     {
+        $products_array=array();
+        $products_array=productsModel::getLatestProducts();
         require_once (ROOT.'/view/products/products.php');
         return true;
     }
