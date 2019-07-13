@@ -3,14 +3,13 @@
     <div class="row">
         <div class="col s12 l3">
             <div class="collection z-depth-3">
-                <a href="#!" class="collection-item waves-effect active">Все товары</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 1</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 2</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 3</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 4</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 5</a>
-                <a href="#!" class="collection-item waves-effect">ТОВАР 6</a>
-
+                <a href="/products" class="collection-item waves-effect <?php if (!isset($idCategory))echo 'active'?>">Все товары</a>
+                <?php foreach ($categorylist as $category): ?>
+                <a href="/products/category-<?php echo $category['id'] ?>"
+                   class="collection-item waves-effect <?php if ($idCategory==$category['id'])echo 'active'?>">
+                        <?php echo $category['name'] ?>
+                </a>
+                <?php endforeach; ?>
             </div>
         </div>
         <div class="col s12 l9 z-depth-1 white" style="padding-bottom: 20px">
@@ -26,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class=" row ">
         <?php foreach ($products_array as $product): ?>
             <div class="col s12 m6 l3">
                 <div class="card hoverable">
