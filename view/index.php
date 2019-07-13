@@ -21,7 +21,7 @@
         <br><br>
 </section>
 
-<section class="z-depth-1 green-c" style="margin-top: 3em">
+<section class="z-depth-1 green-c" style="margin-top: 6em">
     <div class="banner-platforms--container row">
         <div class="platform">
             <i class="fa fa-cc-visa platform-image" aria-hidden="true"></i>
@@ -42,25 +42,25 @@
 </section>
 <section class="container">
     <div class="row">
-        <div class="col s12 section-title">
+        <div class="col m12 section-title">
             <h2>Популярные товары</h2>
         </div>
-        <div class="col s12">
-                <div class="col s4">
+        <div class="col m12">
+                <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">flash_on</i>
                         <p class="promo-caption">Speeds up development</p>
                         <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">group</i>
                         <p class="promo-caption">User Experience Focused</p>
                         <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">settings</i>
                         <p class="promo-caption">Easy to work with</p>

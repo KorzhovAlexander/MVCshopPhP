@@ -31,7 +31,7 @@
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
                 <li class="waves-effect"><a href="/">Главная</a></li>
-                <li class="waves-effect"><a href="#!">Товары</a></li>
+                <li class="waves-effect"><a href="/products">Товары</a></li>
                 <li class="waves-effect"><a href="#!">Доставка</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
@@ -44,7 +44,7 @@
 </div>
 <ul class="sidenav" id="mobile-nav">
     <li><a href="/"><i class="material-icons left">home</i>Главная</a></li>
-    <li><a href="#!"><i class="material-icons left">store</i>Товары</a></li>
+    <li><a href="/products"><i class="material-icons left">store</i>Товары</a></li>
     <li><a href="#!"><i class="material-icons left">directions_car</i>Доставка</a></li>
     <br>
     <li><a href="/login"><i class="material-icons left">person</i>Войти</a></li>

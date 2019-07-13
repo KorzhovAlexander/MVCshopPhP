@@ -1,17 +1,104 @@
 <?php require 'view/temp/header.php'?>
 <section class="container">
     <div class="row">
-        <div class="col s3">
+        <div class="col s12 l3">
             <div class="collection">
-                <a href="#!" class="collection-item waves-effect"><span class="badge">1</span>Alan</a>
-                <a href="#!" class="collection-item waves-effect"><span class="new badge">4</span>Alan</a>
-                <a href="#!" class="collection-item waves-effect">Alan</a>
-                <a href="#!" class="collection-item waves-effect"><span class="badge">14</span>Alan</a>
+                <a href="#!" class="collection-item waves-effect active">Все товары</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 1</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 2</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 3</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 4</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 5</a>
+                <a href="#!" class="collection-item waves-effect">ТОВАР 6</a>
+
             </div>
         </div>
-<!--        <div class="col s9">-->
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque, consequatur consequuntur eos id itaque minus molestiae odit provident quaerat quia quibusdam quo ratione repellat unde, vel vitae voluptatem? Culpa ducimus expedita harum ipsam libero velit. Beatae cupiditate debitis dignissimos exercitationem explicabo ipsam quibusdam repellendus veritatis. Accusantium aliquam cum debitis dolorem dolores ea eveniet, harum hic laboriosam natus obcaecati qui ratione sapiente veniam voluptates! Accusamus accusantium ad amet atque corporis culpa deserunt dicta distinctio dolor dolore dolorum ducimus ea et eveniet expedita facere fuga fugiat fugit in nam, necessitatibus nemo neque non officia pariatur praesentium quia repellat rerum saepe similique sit suscipit tempora tempore temporibus tenetur vitae voluptatum. Aperiam deserunt dolorum, eius fugit illum iure laudantium molestiae nisi obcaecati sapiente similique sint vel, voluptatibus? Accusamus adipisci dicta dolores est quidem sed sint? Excepturi harum laborum nemo porro tempora. Eius magni natus provident. Ab cumque debitis doloremque inventore iste iusto magni nemo perspiciatis quas soluta tenetur, totam ullam vel. Aliquid facilis quia ullam ut? A accusamus aliquid consectetur corporis delectus dicta dolor eius est explicabo hic ipsa itaque libero molestias, mollitia natus odit perspiciatis placeat quod reiciendis sed soluta voluptas voluptatem. Accusamus architecto assumenda distinctio, dolores facere facilis fugiat fugit harum hic impedit, in iusto labore maxime modi molestiae mollitia nemo neque obcaecati odit optio pariatur porro provident quia quo quod reiciendis saepe sed sunt vel vitae! Ad aliquid at blanditiis corporis dolorem earum fuga hic incidunt iure mollitia, nam officiis omnis quaerat. Aliquam aperiam ea, enim error exercitationem in laboriosam nemo praesentium quas quasi quod rem reprehenderit tempore tenetur vero voluptas voluptates. A alias aliquam autem culpa distinctio eius eos eum eveniet facere fuga illum incidunt inventore ipsam libero, maxime, minus modi nam nisi non nulla odit officia officiis perferendis possimus quo repudiandae rerum similique sunt tempora veritatis! Animi aut culpa eligendi fugiat libero nam natus odio pariatur repudiandae similique! Commodi deserunt dicta dolor enim explicabo fuga ipsam iure labore maxime pariatur perspiciatis quos sequi sint tempora tenetur, veniam voluptatum? Atque deserunt et eum iure laboriosam quaerat quasi vero voluptas? Ab ad aperiam debitis dolor dolorem dolorum eius eos eum explicabo facere ipsa ipsam ipsum iste iure libero mollitia nam natus nobis, nulla officia omnis placeat quo ratione sapiente sit totam vero! Adipisci alias, architecto consequuntur corporis cumque debitis delectus dicta distinctio dolorem doloremque ducimus eligendi facilis fugit ipsam minus molestiae mollitia nam nulla perspiciatis quis quo ratione reiciendis similique tempora ullam vel voluptas. Exercitationem quia quod voluptas. A adipisci at aut autem culpa cum doloribus ea earum eius expedita fuga ipsa iusto, laborum magnam magni molestias mollitia nam nobis non pariatur qui repellat repudiandae saepe soluta tempora voluptatibus voluptatum. Animi autem beatae eum excepturi laborum libero perferendis perspiciatis? A corporis cum dignissimos dolore ipsum labore odit optio quae repudiandae. Accusamus ad adipisci architecto asperiores cupiditate dicta esse est eum fuga, incidunt inventore libero magni nam nisi nostrum obcaecati placeat possimus quam quibusdam temporibus ut voluptates voluptatibus! A accusantium commodi culpa dignissimos eius eos expedita, harum ipsum minus neque numquam obcaecati, odio officiis quaerat qui ratione sit? Ab assumenda beatae dignissimos earum excepturi facilis fugiat harum hic iste, itaque laborum, omnis quaerat quasi quisquam quos rerum sit vel. A dicta enim esse facilis mollitia pariatur quasi repellat veniam! Ad asperiores debitis deleniti dolorem eos labore minima, odio omnis provident qui quos repellat sequi, tempora. Accusamus adipisci alias autem dolor ex facilis fuga fugit id impedit laboriosam magnam molestias neque nostrum quidem ratione, rem, sapiente similique sint vitae voluptatibus? Accusamus aliquid beatae commodi culpa deserunt, dicta eligendi error esse est et impedit ipsam laboriosam minima officiis praesentium quia temporibus. Ab ad id iusto nulla odio pariatur ratione? Accusantium amet asperiores blanditiis, cupiditate deleniti exercitationem harum ipsa maxime, neque nulla odit porro, possimus quibusdam quod tempora temporibus voluptatibus? Fugit in minus vitae. Ad repellendus sed sint. Accusantium beatae dolores dolorum ex, excepturi illum inventore ipsa labore magnam, nostrum officia reiciendis repellendus suscipit ut voluptates? Amet, doloremque eius eum id ipsum labore nam nobis odit officia, qui quis repellendus voluptatibus. A alias asperiores assumenda at, autem consectetur cupiditate deleniti distinctio dolorem dolorum eaque enim eos et exercitationem explicabo facilis harum impedit ipsam iure laboriosam laudantium molestiae necessitatibus nemo nihil obcaecati omnis pariatur placeat qui repudiandae sit tempore tenetur unde voluptates. Hic iure repellat sequi. Aut deserunt, dicta dolore dolorum eaque eligendi expedita iusto labore maiores molestias nam, neque possimus quaerat quidem quis, sint vitae. Architecto, beatae deserunt distinctio eligendi est expedita ipsam laborum non provident quasi reiciendis similique tenetur velit! Ab labore necessitatibus quae. Alias asperiores autem debitis doloremque eos et fugit illo inventore ipsa iure labore laboriosam magni molestias, nesciunt nobis, officia pariatur placeat quas sunt, tenetur ullam ut vitae? Alias animi consequatur explicabo laborum officia quisquam? Autem debitis facilis natus pariatur placeat! A beatae corporis distinctio dolores eos ipsam laudantium libero nemo nihil odit, omnis optio pariatur possimus provident quam quas quidem recusandae repellat rerum soluta tempore, totam velit, voluptatibus? Accusantium at cupiditate dolorum ducimus eligendi expedita facere, harum illo impedit inventore laudantium, minus molestiae natus nisi non numquam obcaecati officiis optio pariatur perferendis placeat praesentium quasi quos vel vero. Ad, commodi culpa cum deleniti doloribus dolorum est impedit, incidunt libero natus nemo nesciunt odit porro possimus sequi sunt ullam. Ab animi dolorum eius excepturi expedita explicabo hic ipsa, laudantium magni odio officiis rerum, sint temporibus. Amet consectetur culpa delectus doloribus ea est eveniet iste nostrum optio praesentium, quaerat sunt vitae! Ab cum deleniti dicta expedita fugiat in incidunt labore minus, molestias mollitia nemo, nihil quia, quod reiciendis repellendus sit unde. Autem, beatae consectetur distinctio earum exercitationem incidunt nihil officia repudiandae, rerum soluta tempore, unde. A cupiditate deleniti dolor doloremque enim exercitationem, illum, incidunt iusto magni nostrum numquam provident, quam repellendus similique temporibus totam ullam vitae voluptas. Ad deserunt eum excepturi labore nobis optio placeat ratione sequi tempora. A ab accusantium distinctio dolore dolorum, ea eveniet illum iure laborum nobis, numquam obcaecati quam recusandae sed similique ut vel velit veniam vitae voluptate. Animi delectus deserunt incidunt maiores maxime nemo nesciunt, pariatur!
-<!--        </div>-->
+        <div class="col s12 l9 z-depth-1 white" style="padding-bottom: 20px">
+            <div class="col m12 section-title">
+                <h2 class="center">Популярные товары</h2>
+            </div>
+            <div class="col m12 " style="margin-top: 3em">
+                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi eaque earum facere iste iusto quis repellendus velit? Accusamus, alias architecto assumenda, beatae cupiditate dolore dolorem, dolorum esse est eum eveniet facere in incidunt ipsa ipsum iste mollitia necessitatibus neque numquam possimus quasi reiciendis reprehenderit sequi soluta suscipit vel vitae?
+                </div>
+                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque, deserunt dolorum id iusto nesciunt odit praesentium tenetur voluptas. Ab ad adipisci amet, at aut blanditiis corporis illo incidunt, maiores mollitia nam pariatur porro quasi reiciendis sunt totam voluptatem. Est labore modi molestiae praesentium, quaerat quis reiciendis repellat repellendus velit!</div>
+                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt enim facilis ipsa nemo? Ad alias at cum cumque delectus et eum facere fugit incidunt ipsa iste, minus modi nobis non odit optio praesentium, provident quae quaerat, quas quis quo ratione repellendus sint tempora temporibus unde ut vel velit voluptatem?</div>
+                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam assumenda beatae commodi eum exercitationem illo incidunt iure iusto maiores minima obcaecati, porro quae quasi reiciendis voluptas voluptate. Architecto asperiores debitis dicta doloremque eum fugit, impedit iure magni natus nulla, pariatur quam quasi reiciendis similique sint sunt temporibus tenetur voluptatem?</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://materializecss.com/images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
