@@ -31,6 +31,13 @@ nav, .green-c{
     -ms-flex-pack: center;
     justify-content: center;
 }
+.about-product-link{
+    /*text-align: right !important;*/
+    /*color: #9e9e9e !important;*/
+    /*font-size: 90% !important;*/
+    /*margin-top: 4px !important;*/
+    /*margin-right: 4px !important;*/
+}
 .section-title h2 {
     font-size: 28px;
     font-weight: 700;

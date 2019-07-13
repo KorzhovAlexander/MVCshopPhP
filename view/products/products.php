@@ -29,20 +29,23 @@
     <div class="row">
         <?php foreach ($products_array as $product): ?>
             <div class="col s12 m6 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://materializecss.com/images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="https://materializecss.com/images/sample-1.jpg">
+                        <span class="card-title"><?php echo $product['name'];
+                            if ($product['is_new']) echo '<span class="red-text darken-4"> NEW</span>' ?></span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title"><?php echo $product['price'].' РУБ'?></span>
+                        <p><?php echo $product['description']?></p>
+                        <a class="about-product-link" href="/products/<?php echo $product['id'] ?>">
+                            Посмотреть описание
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
         <?php endforeach;?>
-
-
     </div>
     <div class="center-align">
         <ul class="pagination">

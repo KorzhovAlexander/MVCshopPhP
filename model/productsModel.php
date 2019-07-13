@@ -9,7 +9,7 @@ class productsModel
     {
         $db=DAO::getConnection();
 
-        $stm=$db->prepare("SELECT id, name, price, is_new FROM products where status>0 ORDER BY id DESC LIMIT :count");
+        $stm=$db->prepare("SELECT id, name, price, is_new,description FROM products where status>0 ORDER BY id DESC LIMIT :count");
         $stm->bindParam(':count', $count, PDO::PARAM_INT);
         $stm->setFetchMode(PDO::FETCH_ASSOC);
 
@@ -24,6 +24,7 @@ class productsModel
             $productsList[$i]['name'] = $row['name'];
             $productsList[$i]['price'] = $row['price'];
             $productsList[$i]['is_new'] = $row['is_new'];
+            $productsList[$i]['description'] = $row['description'];
             $i++;
         }
         return $productsList;
