@@ -1,18 +1,18 @@
 <?php
 
-include_once ROOT.'/model/newsModel.php';
+include_once ROOT.'/model/productsModel.php';
 
 class productsController
 {
     public function listAction()
     {
-        echo "productsController viewAction()";
+        require_once (ROOT.'/view/products/products.php');
         return true;
     }
 
     public function listByIDAction($idProduct)
     {
-        echo "productsController listByIDAction($idProduct)";
+        require_once (ROOT.'/view/products/products.php');
         return true;
 
     }

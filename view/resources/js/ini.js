@@ -4,5 +4,5 @@ $(document).ready(function(){
         indicators:true,
         // height:500,
     });
-    $('.indicator-item').addClass('z-depth-2')
+    $('.indicator-item').addClass('z-depth-2');
 });
