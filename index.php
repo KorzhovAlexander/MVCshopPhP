@@ -6,8 +6,8 @@ error_reporting(E_ALL);
 /*Определяем переменную РУТ и подключаем роутер*/
 define('ROOT',dirname('__FILE__'));
 //print_r(ROOT);
-require_once(ROOT.'/components/Router.php');
-require_once ROOT.'/components/DAO.php';
+require_once ROOT.'/components/Autoload.php';
+
 
 $alpha = new Router();
 $alpha->run();

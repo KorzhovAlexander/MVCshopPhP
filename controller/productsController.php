@@ -1,8 +1,5 @@
 <?php
 
-include_once ROOT.'/model/productsModel.php';
-include_once ROOT.'/model/categoryModel.php';
-
 
 class productsController
 {
