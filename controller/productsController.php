@@ -6,22 +6,24 @@ include_once ROOT.'/model/categoryModel.php';
 
 class productsController
 {
-    public function listAction()
+    public function listAction($page=1)
     {
-        $categorylist=array();
-        $products_array=array();
-        $products_array=productsModel::getLatestProducts();
+        // Список категорий для левого меню
         $categorylist=categoryModel::getCategoriesList();
+
+        // Список всех товаров (особенно последних)
+        $products_array=productsModel::getLatestProducts();
+
         require_once (ROOT.'/view/products/products.php');
         return true;
     }
 
-    public function listCategoryAction($idCategory)
+    public function listCategoryAction($idCategory,$page=1)
     {
-        $categorylist=array();
+        // Список категорий для левого меню
         $categorylist=categoryModel::getCategoriesList();
 
-        $products_array=array();
+        // Список товаров в категории
         $products_array=productsModel::getProductsListByCategory($idCategory);
         require_once (ROOT.'/view/products/products.php');
         return true;
