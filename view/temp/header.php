@@ -35,7 +35,7 @@
                 <li class="waves-effect"><a href="#!">Доставка</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <a href="#!" class="btn-floating waves-effect waves-light orange darken-4 "><i class="material-icons tiny">shopping_cart</i></a>
+                <a href="#!" class="btn-floating waves-effect waves-light orange darken-4 hoverable"><i class="material-icons tiny">shopping_cart</i></a>
                 <li class="waves-effect"><a href="/login"><i class="material-icons left">person</i>Войти</a></li>
                 <li class="waves-effect"><a href="/registration"><i class="material-icons left">person_add</i>Регистрация</a></li>
             </ul>

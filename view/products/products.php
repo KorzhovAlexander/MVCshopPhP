@@ -25,9 +25,9 @@
             </div>
         </div>
     </div>
-    <div class=" row ">
+    <div class="row">
         <?php foreach ($products_array as $product): ?>
-            <div class="col s12 m6 l3">
+            <div class="col s12 m6 l3 ">
                 <div class="card hoverable">
                     <div class="card-image">
                         <img src="https://materializecss.com/images/sample-1.jpg">
@@ -35,7 +35,7 @@
                             if ($product['is_new']) echo '<span class="red-text darken-4"> NEW</span>' ?></span>
                         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-content product-cards">
                         <span class="card-title"><?php echo $product['price'].' РУБ'?></span>
                         <p><?php echo $product['description']?></p>
                         <a class="about-product-link" href="/products/<?php echo $product['id'] ?>">

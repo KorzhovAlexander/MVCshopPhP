@@ -29,7 +29,8 @@ class productsController
 
     public function listByIDAction($idProduct)
     {
-        require_once (ROOT.'/view/products/products.php');
+        $product_array=productsModel::getProductById($idProduct);
+        require_once (ROOT.'/view/products/product.php');
         return true;
 
     }
