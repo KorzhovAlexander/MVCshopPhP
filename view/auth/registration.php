@@ -8,6 +8,17 @@
                 <!-- title -->
                 <div class="center-align border title-border m1">Создать учетную запись.</div>
 
+                <?php if (isset($result)): ?>
+                    <p>Вы зарегистрированы!</p>
+                <?php header('Location:/'); else: ?>
+                <?php if (isset($errors) && is_array($errors)): ?>
+                    <ul>
+                        <?php foreach ($errors as $error): ?>
+                            <li> - <?php echo $error; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+
                 <!-- card body -->
                 <div class="card-body">
 
@@ -17,15 +28,16 @@
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">account_box</i>
-                                <input id="name" type="text" class="validate" name="name">
+                                <input id="name" type="text" class="validate" name="name" value="<?php echo $name; ?>">
                                 <label for="name">Имя</label>
                             </div>
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">email</i>
-                                <input id="email" type="email" class="validate" name="email">
+                                <input id="email" type="email" class="validate" name="email" value="<?php echo $email; ?>">
                                 <label for="email">Email</label>
                             </div>
+                            <?php endif; ?>
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">lock_outline</i>
