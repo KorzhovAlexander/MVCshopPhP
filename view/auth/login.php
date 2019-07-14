@@ -7,30 +7,36 @@
                 <div class="card-content">
                     <!-- title -->
                     <div class="center-align border title-border m1">Добро пожаловать!</div>
-
+                    <?php if (isset($errors) && is_array($errors)): ?>
+                        <ul>
+                            <?php foreach ($errors as $error): ?>
+                                <li class="red-text"> - <?php echo $error; ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
                     <!-- card body -->
                     <div class="card-body">
 
                         <!-- form -->
-                        <form action="#!">
+                        <form action="#!" method="post">
                             <div class="row m-b-5">
 
                                 <div class="input-field col s12">
-                                    <i class="material-icons prefix">email</i>
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email" class="">Email</label>
+                                    <i class="material-icons prefix">account_box</i>
+                                    <input id="name" type="text" class="validate" name="name">
+                                    <label for="name" class="">Имя</label>
                                 </div>
 
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">lock_outline</i>
-                                    <input id="password" type="password" class="validate">
+                                    <input id="password" type="password" class="validate" name="password">
                                     <label for="password" class="">Пароль</label>
                                 </div>
 
                                 <div class="col s12 center-align">
                                     <p>
                                         <label>
-                                            <input type="checkbox" class="filled-in" checked="checked" name="check">
+                                            <input type="checkbox" class="filled-in" checked="checked" name="check" disabled>
                                             <span>Не выходить из системы</span>
                                         </label>
                                     </p>

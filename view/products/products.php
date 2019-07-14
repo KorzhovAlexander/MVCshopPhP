@@ -6,7 +6,9 @@
                 <a href="/products" class="collection-item waves-effect <?php if (!isset($idCategory))echo 'active'?>">Все товары</a>
                 <?php foreach ($categorylist as $category): ?>
                 <a href="/products/category-<?php echo $category['id'] ?>"
-                   class="collection-item waves-effect <?php if ($idCategory==$category['id'])echo 'active'?>">
+                   class="collection-item waves-effect <?php
+                   if (isset($idCategory))
+                   if ($idCategory==$category['id'])echo 'active'?>">
                         <?php echo $category['name'] ?>
                 </a>
                 <?php endforeach; ?>
