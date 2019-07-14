@@ -18,6 +18,40 @@ class productsController
     }
 
 
+
+    public function setBasketAction($ProductID)
+    {
+/*        setcookie ("productID", "", time() - 3600);
+        setcookie ("productID[]", "", time() - 3600);
+        die();*/
+        // Приводим $id к типу integer
+        $id = intval($ProductID);
+
+        // Пустой массив для товаров в корзине
+        $productsInCart = array();
+
+        // Если в корзине уже есть товары (они хранятся в сессии)
+        if (isset($_COOKIE['productID'])) {
+            // То заполним наш массив товарами
+            $productsInCart = json_decode($_COOKIE['productID'], true);;
+        }
+        // Проверяем есть ли уже такой товар в корзине
+        if (array_key_exists($id, $productsInCart)) {
+            // Если такой товар есть в корзине, но был добавлен еще раз, увеличим количество на 1
+            $productsInCart[$id] ++;
+        } else {
+            // Если нет, добавляем id нового товара в корзину с количеством 1
+            $productsInCart[$id] = 1;
+        }
+        // Записываем массив с товарами в сессию
+        setcookie("productID", json_encode($productsInCart),time()+120);
+
+        // Возвращаем количество товаров в корзине
+        echo json_encode($productsInCart);
+
+        return true;
+    }
+
     public function listAction($page=1)
     {
         // Список категорий для левого меню

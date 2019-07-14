@@ -6,6 +6,7 @@ return array(
     'products/([0-9]+)'=>'products/listByID/$1',
 
     'products/page-([0-9]+)'=>'products/list/$1',
+    'products/productID-([0-9]+)'=>'products/setBasket/$1',
     'products'=>'products/list',
 
     'login'=>'auth/login',

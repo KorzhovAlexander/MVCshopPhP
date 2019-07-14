@@ -27,6 +27,10 @@
             </div>
         </div>
     </div>
+    <div class="center-align">
+        <?php echo $pagination->get()?>
+
+    </div>
     <div class="row">
         <?php foreach ($products_array as $product): ?>
             <div class="col s12 m6 l3 ">
@@ -35,7 +39,9 @@
                         <img src="https://materializecss.com/images/sample-1.jpg">
                         <span class="card-title"><?php echo $product['name'];
                             if ($product['is_new']) echo '<span class="red-text darken-4"> NEW</span>' ?></span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red add-to-cart" data-id="<?php echo $product['id']?>">
+                            <i class="material-icons">add</i>
+                        </a>
                     </div>
                     <div class="card-content product-cards">
                         <span class="card-title"><?php echo $product['price'].' РУБ'?></span>
@@ -53,5 +59,16 @@
 
     </div>
 </section>
-
+<script>
+    $(document).ready(function(){
+        $(".add-to-cart").click(function () {
+            var id = $(this).attr("data-id");
+            $.post("/products/productID-"+id, {},
+                function (data) {
+                $("#cart-count").html(data);
+            });
+            return false;
+        });
+    });
+</script>
 <?php require 'view/temp/footer.php'?>
