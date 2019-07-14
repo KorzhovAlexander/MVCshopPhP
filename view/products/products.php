@@ -65,7 +65,9 @@
             var id = $(this).attr("data-id");
             $.post("/products/productID-"+id, {},
                 function (data) {
-                $("#cart-count").html(data);
+                    $("a[href='#modal1']").addClass("pulse")
+
+                    $("#cart-count").html(data);
             });
             return false;
         });

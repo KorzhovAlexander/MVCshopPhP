@@ -35,18 +35,35 @@
                 <li class="waves-effect"><a href="#!">Доставка</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <a href="#!" class="btn-floating waves-effect waves-light orange darken-4 hoverable"><i class="material-icons tiny">shopping_cart</i></a>
+                <a href="#modal1" class="btn-floating waves-effect waves-light orange darken-4 hoverable modal-trigger
+                <?php if (isset($_COOKIE['productID'])) echo 'pulse'?>">
+                    <i class="material-icons tiny">shopping_cart</i></a>
                 <?php if (userModel::isGuest()): ?>
                     <li class="waves-effect"><a href="/login"><i class="material-icons left">person</i>Войти</a></li>
                     <li class="waves-effect"><a href="/registration"><i class="material-icons left">person_add</i>Регистрация</a></li>
                 <?php else: ?>
-                    <li><a href="/cabinet/"><i class="fa fa-user"></i> Аккаунт</a></li>
+                    <li><a href="/cabinet/" disabled><i class="fa fa-user"></i> Аккаунт</a></li>
                     <li><a href="/logout/"><i class="fa fa-unlock"></i> Выход</a></li>
                 <?php endif; ?>
 
             </ul>
         </div>
     </nav>
+</div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Ваши товары</h4>
+        <span class="small grey-text">я слишком ленив, чтобы json просматривать и проверять каждый id в базе, просто поверьте мне, что
+        я смогу это реализовать =_=" (первое значение id товара, второе - колличество. Все в куках)</span>
+        <div id="cart-count">
+            <?php if (isset($_COOKIE['productID'])) echo json_encode($_COOKIE['productID']) ?>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="waves-effect waves-green btn-flat">Оформить заказ</a>
+        <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text">Закрыть</a>
+    </div>
 </div>
 <ul class="sidenav" id="mobile-nav">
     <li><a href="/"><i class="material-icons left">home</i>Главная</a></li>
@@ -56,7 +73,3 @@
     <li><a href="/login"><i class="material-icons left">person</i>Войти</a></li>
     <li><a href="/registration"><i class="material-icons left">person_add</i>Регистрация</a></li>
 </ul>
-
-<script>
-
-</script>
