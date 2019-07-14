@@ -22,12 +22,16 @@ class productsModel
     }
 
 
-    public static function getLatestProducts($count = self::SHOW_DEFAULT)
+    public static function getProducts($page = 1,$count = self::SHOW_DEFAULT)
     {
+        // Смещение (для запроса)
+        $offset = ($page - 1) * self::SHOW_DEFAULT;
+
         $db=DAO::getConnection();
 
-        $stm=$db->prepare("SELECT id, name, price, is_new,description FROM products where status>0 ORDER BY id DESC LIMIT :count");
+        $stm=$db->prepare("SELECT id, name, price, is_new,description FROM products where status>0 ORDER BY id DESC LIMIT :count OFFSET :offset");
         $stm->bindParam(':count', $count, PDO::PARAM_INT);
+        $stm->bindParam(':offset', $offset, PDO::PARAM_INT);
         $stm->setFetchMode(PDO::FETCH_ASSOC);
 
         $stm->execute();
@@ -74,6 +78,30 @@ class productsModel
         // Получение и возврат результатов
         return $result->fetch();
     }
+
+    public static function getTotalProductsInCategory($idCategory)
+    {
+        // Соединение с БД
+        $db = DAO::getConnection();
+            if ($idCategory!=0){
+                // Текст запроса к БД
+                $sql = 'SELECT count(id) AS count FROM products WHERE status>0 AND category_id = :category_id';
+                // Используется подготовленный запрос
+                $result = $db->prepare($sql);
+                $result->bindParam(':category_id', $idCategory, PDO::PARAM_INT);
+            }
+            else
+                {
+                $sql = 'SELECT count(id) AS count FROM products WHERE status>0';
+                $result = $db->query($sql);
+            }
+        // Выполнение коменды
+        $result->execute();
+        // Возвращаем значение count - количество
+        $row = $result->fetch();
+        return $row['count'];
+    }
+
 
 
 

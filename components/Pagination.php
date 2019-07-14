@@ -79,14 +79,15 @@ class Pagination
         }
         # Если ссылки создались
         if (!is_null($links)) {
+
             # Если текущая страница не первая
             if ($this->current_page > 1)
                 # Создаём ссылку "На первую"
-                $links = $this->generateHtml(1, '&lt;') . $links;
+                $links = $this->generateHtml($this->current_page-1, '<i class="material-icons">chevron_left</i>') . $links;
             # Если текущая страница не первая
             if ($this->current_page < $this->amount)
                 # Создаём ссылку "На последнюю"
-                $links .= $this->generateHtml($this->amount, '&gt;');
+                $links .= $this->generateHtml($this->current_page+1, '<i class="material-icons">chevron_right</i>');
         }
         $html .= $links . '</ul>';
         # Возвращаем html
@@ -108,7 +109,7 @@ class Pagination
         $currentURI = preg_replace('~/page-[0-9]+~', '', $currentURI);
         # Формируем HTML код ссылки и возвращаем
         return
-            '<li><a href="' . $currentURI . $this->index . $page . '">' . $text . '</a></li>';
+            '<li class="waves-effect"><a href="' . $currentURI . $this->index . $page . '">' . $text . '</a></li>';
     }
     /**
      *  Для получения, откуда стартовать
