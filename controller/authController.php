@@ -88,6 +88,14 @@ class authController
         return true;
     }
 
+    public function logoutAction()
+    {
+        // Удаляем информацию о пользователе из сессии
+        unset($_SESSION["user"]);
+        header('Location:/');
+        return true;
+    }
+
     public function resetAction()
     {
         require_once (ROOT.'/view/auth/resetpas.php');

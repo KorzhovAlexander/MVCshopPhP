@@ -9,6 +9,7 @@ return array(
     'products'=>'products/list',
 
     'login'=>'auth/login',
+    'logout'=>'auth/logout',
     'registration'=>'auth/registration',
     'reset'=>'auth/reset',
 
