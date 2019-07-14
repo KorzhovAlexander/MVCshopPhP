@@ -12,24 +12,24 @@
                 <div class="card-body">
 
                     <!-- form -->
-                    <form action="#!">
+                    <form action="#!" method="post">
                         <div class="row m-b-5">
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">account_box</i>
-                                <input id="name" type="text" class="validate">
+                                <input id="name" type="text" class="validate" name="name">
                                 <label for="name">Имя</label>
                             </div>
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">email</i>
-                                <input id="email" type="email" class="validate">
+                                <input id="email" type="email" class="validate" name="email">
                                 <label for="email">Email</label>
                             </div>
 
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">lock_outline</i>
-                                <input id="password" type="password" class="validate">
+                                <input id="password" type="password" class="validate" name="password">
                                 <label for="password">Пароль</label>
                             </div>
 
@@ -39,7 +39,7 @@
                                 <label for="confirm-password">Подтвердите Пароль</label>
                             </div>
 
-                            <div class="col s12 center-align ">
+                            <div class="col s12 center-align">
                                 <p>
                                     <label>
                                         <input type="checkbox" class="filled-in" name="check">
