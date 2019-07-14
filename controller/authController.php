@@ -6,6 +6,7 @@ class authController
     public function loginAction()
     {
 
+
         require_once (ROOT.'/view/auth/login.php');
         return true;
     }
@@ -39,12 +40,15 @@ class authController
             if (!userModel::checkFlag($flag)) {
                 $errors[] = 'Необходимо принять согласие на обработку персональных данных';
             }
+            if (userModel::checkUsernameExists($name)){
+                $errors[]= 'Имя занято другим пользователем';
+            }
 
             if ($errors == false) {
                 // Если ошибок нет
                 // Регистрируем пользователя
-//                $result = userModel::register($name, $email, $password);
-                $result=true;
+                $result = userModel::register($name, $email, $password);
+//                $result=true;
             }
         }
         require_once (ROOT.'/view/auth/registration.php');
