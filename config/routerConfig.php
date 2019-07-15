@@ -14,5 +14,7 @@ return array(
     'registration'=>'auth/registration',
     'reset'=>'auth/reset',
 
+    'send'=>'send/send',
+
     '^/*$' => 'main/index'
 );

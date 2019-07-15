@@ -32,7 +32,7 @@
             <ul class="left hide-on-med-and-down">
                 <li class="waves-effect"><a href="/">Главная</a></li>
                 <li class="waves-effect"><a href="/products">Товары</a></li>
-                <li class="waves-effect"><a href="#!">Доставка</a></li>
+                <li class="waves-effect"><a href="/send">Доставка</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
                 <a href="#modal1" class="btn-floating waves-effect waves-light orange darken-4 hoverable modal-trigger
@@ -61,14 +61,14 @@
         </div>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="waves-effect waves-green btn-flat">Оформить заказ</a>
+        <a href="/send" class="waves-effect waves-green btn-flat">Оформить заказ</a>
         <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text">Закрыть</a>
     </div>
 </div>
 <ul class="sidenav" id="mobile-nav">
     <li><a href="/"><i class="material-icons left">home</i>Главная</a></li>
     <li><a href="/products"><i class="material-icons left">store</i>Товары</a></li>
-    <li><a href="#!"><i class="material-icons left">directions_car</i>Доставка</a></li>
+    <li><a href="/send"><i class="material-icons left">directions_car</i>Доставка</a></li>
     <br>
     <li><a href="/login"><i class="material-icons left">person</i>Войти</a></li>
     <li><a href="/registration"><i class="material-icons left">person_add</i>Регистрация</a></li>
