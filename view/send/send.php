@@ -14,14 +14,18 @@
         </div>
         <div class="col s12 l9 z-depth-1 white" style="padding-bottom: 20px">
             <div class="col m12 section-title">
-                <h2 class="center">Популярные товары</h2>
+                <h2 class="center">Правила доставки</h2>
             </div>
             <div class="col m12 " style="margin-top: 3em">
-                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi eaque earum facere iste iusto quis repellendus velit? Accusamus, alias architecto assumenda, beatae cupiditate dolore dolorem, dolorum esse est eum eveniet facere in incidunt ipsa ipsum iste mollitia necessitatibus neque numquam possimus quasi reiciendis reprehenderit sequi soluta suscipit vel vitae?
-                </div>
-                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque, deserunt dolorum id iusto nesciunt odit praesentium tenetur voluptas. Ab ad adipisci amet, at aut blanditiis corporis illo incidunt, maiores mollitia nam pariatur porro quasi reiciendis sunt totam voluptatem. Est labore modi molestiae praesentium, quaerat quis reiciendis repellat repellendus velit!</div>
-                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt enim facilis ipsa nemo? Ad alias at cum cumque delectus et eum facere fugit incidunt ipsa iste, minus modi nobis non odit optio praesentium, provident quae quaerat, quas quis quo ratione repellendus sint tempora temporibus unde ut vel velit voluptatem?</div>
-                <div class="col m6 l3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam assumenda beatae commodi eum exercitationem illo incidunt iure iusto maiores minima obcaecati, porro quae quasi reiciendis voluptas voluptate. Architecto asperiores debitis dicta doloremque eum fugit, impedit iure magni natus nulla, pariatur quam quasi reiciendis similique sint sunt temporibus tenetur voluptatem?</div>
+                <ul>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deserunt eum fugit illum itaque laboriosam neque obcaecati quos tempore, voluptas. Accusamus autem beatae consectetur debitis deleniti dolores eaque earum eius et expedita ipsa ipsum iure, maiores nam nemo nihil nobis officia optio pariatur quam quas reiciendis sed similique temporibus, voluptatem.</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus fuga impedit molestiae nisi quas qui rem sed vel veniam? Blanditiis distinctio dolores neque rem repudiandae ullam veritatis. Asperiores consectetur cupiditate eveniet facere modi molestias mollitia sed ut velit voluptate. Aperiam incidunt iusto laborum officia omnis reprehenderit saepe, veritatis voluptatibus.</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias atque beatae consequuntur corporis cum eos ex fugiat in ipsa ipsum iure iusto maxime minus molestias necessitatibus nemo, nisi nobis nulla odio officiis optio provident quae quia quisquam quo ratione repellat saepe sed sunt tempora tempore temporibus vel veritatis vero.</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto atque deleniti eligendi, error eum explicabo laudantium magni nam non quaerat quis quisquam ullam? Commodi consequatur debitis ipsum voluptate! Aliquid aperiam asperiores facilis, quos reprehenderit sunt voluptate? Aliquam aliquid animi atque consequuntur dignissimos enim illum laboriosam magni odit, quis vero.</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eius facere quibusdam suscipit tempora tempore! Adipisci amet aspernatur atque doloribus esse nostrum obcaecati quasi repellat, veritatis. Ad aliquid, aperiam, aspernatur atque blanditiis dicta dignissimos et expedita fuga fugiat id impedit inventore, maiores natus nihil odit omnis praesentium quis ut voluptatum!</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at beatae excepturi nam nobis pariatur qui ratione sed sint suscipit.</p></li>
+                    <li><p>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, voluptatibus!</p></li>
+                </ul>
             </div>
         </div>
     </div>

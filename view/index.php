@@ -3,17 +3,17 @@
         <br><br>
         <div class="row">
             <div class="col l6">
-                <h1 class="header center">Starter Template</h1>
+                <h1 class="header center">Начни покупать в SmallShop</h1>
                 <div class="row center">
                     <h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur corporis debitis dolore eaque earum enim est excepturi facilis, inventore ipsa laboriosam maiores minus modi, nihil odio, officia officiis omnis quaerat quasi qui quod repellat saepe sit suscipit tempore voluptatem.</h5>
                 </div>
                 <div class="row center">
-                    <a href="#!" id="download-button" class="btn-large waves-effect waves-light">Get Started</a>
+                    <a href="/products" id="download-button" class="btn-large waves-effect waves-light">Перейти в магазин</a>
                 </div>
             </div>
             <div class="col l6">
                 <div class="material-placeholder" style="">
-                    <img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/1.png"
+                    <img src="/view/resources/images/Снимок экрана от 2019-07-15 20-33-34.png"
                          class="responsive-img materialboxed z-depth-2 initialized">
                 </div>
             </div>
@@ -49,22 +49,22 @@
                 <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">flash_on</i>
-                        <p class="promo-caption">Speeds up development</p>
-                        <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                        <p class="promo-caption">Lorem ipsum dolor sit amet.</p>
+                        <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae, culpa cum dignissimos eos impedit, in iusto maxime molestias quasi quibusdam voluptas voluptate voluptatum? Adipisci assumenda consequatur exercitationem impedit minima nulla rem reprehenderit sequi vel!</p>
                     </div>
                 </div>
                 <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">group</i>
-                        <p class="promo-caption">User Experience Focused</p>
-                        <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+                        <p class="promo-caption">Lorem ipsum dolor sit amet.</p>
+                        <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda autem consequatur culpa ducimus eligendi eos iste molestiae non officia placeat quasi quod quos, repudiandae, sint sunt ut, voluptas voluptates?</p>
                     </div>
                 </div>
                 <div class="col m4">
                     <div class="center promo promo-example">
                         <i class="material-icons" style="    font-size: 7rem;">settings</i>
-                        <p class="promo-caption">Easy to work with</p>
-                        <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+                        <p class="promo-caption">Lorem ipsum dolor sit amet.</p>
+                        <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur debitis ducimus error eveniet minima necessitatibus nisi nulla officia optio pariatur perferendis porro, possimus quas quisquam repudiandae sit vel voluptate.</p>
                     </div>
                 </div>
         </div>
