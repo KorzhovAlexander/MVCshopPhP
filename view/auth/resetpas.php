@@ -1,4 +1,5 @@
 <?php require 'view/temp/header.php'?>
+<main>
 <section class="container">
 <div class="row">
     <!-- Page content body -->
@@ -23,8 +24,12 @@
 
 
                             <div class="input-field col s12">
-                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action">Отправить письмо для сброса пароля
+                                <!--
+                                <button class="btn btn-block waves-effect waves-light" type="submit" name="action" disabled>Отправить письмо для сброса пароля
                                 </button>
+                                -->
+                                <a class="btn btn-block waves-effect waves-light tooltipped" data-position="right" data-tooltip="В разработке">Отправить письмо для сброса пароля</a>
+
                             </div>
 
                         </div>
@@ -55,4 +60,5 @@
 
 </div>
 </section>
+</main>
 <?php require 'view/temp/footer.php'?>

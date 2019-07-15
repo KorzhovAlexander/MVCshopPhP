@@ -1,4 +1,5 @@
 <?php require 'view/temp/header.php'?>
+<main>
 <section class="section container pull-l1">
         <br><br>
         <div class="row">
@@ -70,4 +71,5 @@
         </div>
     </div>
 </section>
+</main>
 <?php require 'view/temp/footer.php'?>

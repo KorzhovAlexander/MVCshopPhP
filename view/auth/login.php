@@ -1,4 +1,5 @@
 <?php require 'view/temp/header.php'?>
+<main>
 <section class="container">
     <div class="row">
         <!-- Page content body -->
@@ -71,4 +72,5 @@
         <!-- End Page content body -->
     </div>
 </section>
+</main>
 <?php require 'view/temp/footer.php'?>
